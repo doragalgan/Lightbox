@@ -144,10 +144,6 @@
     transition: .8s
 }
 
-.lightbox>span a:active {
-    margin-top: -54px;
-}
-
 .lightbox>#right a {
     right: 0;
     margin-right: 20px;
