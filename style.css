@@ -111,7 +111,7 @@
 }
 
 
-/*Close icon start*/
+/*Close icon*/
 
 #close {
     position: absolute;
@@ -142,6 +142,3 @@
         transform: scale(1) rotate(360deg);
     }
 }
-
-
-/*Close icon end*/
