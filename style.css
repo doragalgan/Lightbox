@@ -10,7 +10,6 @@
     justify-content: center;
     max-width: 100%;
     margin: auto;
-    list-style: none;
     padding: 10px;
 }
 
@@ -95,14 +94,10 @@
 }
 
 .lightbox>span a {
-    user-select: none;
-}
-
-.lightbox>span a {
-    color: #fff;
+    position: absolute;
+    color: rgba(255, 255, 255, .5);
     font-size: 60px;
     text-decoration: none;
-    position: absolute;
     margin-left: 20px;
     top: 55%;
     margin-top: -75px;
@@ -116,7 +111,7 @@
 
 .lightbox>span a:hover,
 .lightbox>span a:focus {
-    color: rgb(151, 151, 151);
+    color: #fff;
     transition: .8s
 }
 
