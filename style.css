@@ -76,21 +76,16 @@
 
 .lightbox.anim:target>img,
 .lightbox.anim:target>div {
-    animation: imganim 1s;
+    animation: imgAnim 1s;
 }
 
-@keyframes imganim {
+@keyframes imgAnim {
     0% {
         transform: scale(0);
     }
     100% {
         transform: scale(1);
     }
-}
-
-.lightbox>#right a {
-    right: 0;
-    margin-right: 10px;
 }
 
 .lightbox>span a {
@@ -104,15 +99,15 @@
     z-index: 1;
 }
 
-.lightbox>#rightArrow a {
-    right: 0;
-    margin-right: 20px;
-}
-
 .lightbox>span a:hover,
 .lightbox>span a:focus {
     color: #fff;
     transition: .8s
+}
+
+#rightArrow a {
+    right: 0;
+    margin-right: 20px;
 }
 
 
