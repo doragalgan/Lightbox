@@ -7,11 +7,11 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 100%;
     margin: auto;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 .img-box {
@@ -28,9 +28,6 @@
     filter: grayscale(100%);
     transition: all 1s;
 }
-
-
-/*Img zoom effect*/
 
 .img-box:hover img {
     filter: grayscale(0%);
