@@ -29,6 +29,9 @@
     transition: all 1s;
 }
 
+
+/*Img zoom effect*/
+
 .img-box:hover img {
     filter: grayscale(0%);
     transform: scale(1.3);
